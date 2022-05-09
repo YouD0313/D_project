@@ -18,3 +18,6 @@ a {
 .menu-bar a.active {
     background-color: teal;
 }
+i {
+    padding-right: 7px;
+}
