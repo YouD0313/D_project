@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.megabox.css">
     <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-pen.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e695e6e41.js" crossorigin="anonymous"></script>
     <title>메가박스</title>
 </head>
 <body>
     <header class="header">
         <div class="header-menu">
             <ul>
-                <li>VIP LOUNGE</li>
-                <li>멤버십</li>
-                <li>고객센터</li>
+                <li><a href="#">VIP LOUNGE</a></li>
+                <li><a href="#">멤버십</a></li>
+                <li><a href="#">고객센터</a></li>
             </ul>
             <div>
                 <ul>
-                    <li>로그인</li>
-                    <li>회원가입</li>
-                    <li>빠른예매</li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">빠른예매</a></li>
                 </ul>
             </div>
         </div>
@@ -28,8 +29,8 @@
         <div class="main">
             <div class="icon">
                 <ul>
-                    <li><a href="#"><img src="./img/hamburger_menu.png"></a></li>
-                    <li><a href="#"><img src="./img/search_icon.png"></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                 </ul>
             </div>
             <div class="mainmenu">
@@ -57,8 +58,8 @@
             </div>
             <div class="icon">
                 <ul>
-                    <li><a href="#"><img src="./img/calender.png" id="down"></a></li>
-                    <li id="person"><a href="#"><img src="./img/person.png"></a></li>
+                    <li><a href="#"><i class="fa-solid fa-calendar-days"></i></a></li>
+                    <li id="person"><a href="#"><i class="fa-solid fa-user"></i></a></li>
                 </ul>
             </div>            
         </div>
@@ -67,15 +68,64 @@
         <ol>
             <li></li>
             <li><a href="#" id="underline">박스오피스</a></li>
-            <li><a href="#" style="font-size: 15.2px; color: rgb(146, 146, 146);">더 많은 영화보기 <img src="./img/plus.png"></a></li>
+            <li><a href="#" style="font-size: 15.2px; color: rgb(146, 146, 146);">
+                더 많은 영화보기<i class="fa-solid fa-plus"></i>
+                </a>
+            </li>
         </ol>
     </div>
     <div class="poster">
         <ol>
-            <li><a href="#"><img src="./img/poster_1.jpg"></a></li>
-            <li><a href="#"><img src="./img/poster_2.jpg"></a></li>
-            <li><a href="#"><img src="./img/poster_3.jpg"></a></li>
-            <li><a href="#"><img src="./img/poster_4.jpg"></a></li>
+            <li><a href="#"><img src="https://img.megabox.co.kr/SharedImg/2022/05/04/4OFqLBLmda67a6BPXjaXCVM5wun7FAtb_420.jpg"></a></li>
+            <li><a href="#"><img src="https://img.megabox.co.kr/SharedImg/2022/04/21/xemO2V3dH1nOUPmFAbD1mp2LGFNKpuTf_420.jpg"></a></li>
+            <li><a href="#"><img src="https://img.megabox.co.kr/SharedImg/2022/03/22/SDHavBznZYaXLwV6UYeUu7d3Aoif7o8K_420.jpg"></a></li>
+            <li><a href="#"><img src="https://img.megabox.co.kr/SharedImg/2022/04/06/7YDE8KC4uv7RH6F57pTYUhS7IygSxYTF_420.jpg"></a></li>
+        </ol>
+    </div>
+    <div class="like">
+        <ol>
+            <div class="booking">
+                <li class="heart">
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i> 2.8k
+                    </a>
+                </li>
+                <li class="reser">
+                    <a href="#">예매</a>
+                </li>
+            </div>
+
+            <div class="booking">
+                <li class="heart">
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i> 691
+                </li>
+                <li class="reser">
+                    <a href="#">예매</a>
+                </li>
+            </div>
+
+            <div class="booking">
+                <li class="heart">
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i> 55
+                    </a>
+                </li>
+                <li class="reser">
+                    <a href="#">예매</a>
+                </li>
+            </div>
+
+            <div class="booking">
+                <li class="heart">
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i> 253
+                    </a>
+                </li>
+                <li class="reser">
+                    <a href="#">예매</a>
+                </li>
+            </div>
         </ol>
     </div>
     <div class="footer">
@@ -83,16 +133,16 @@
             <li>
                 <form action="">
                     <input type="text" placeholder="영화명을 입력해주세요">
-                    <img src="./img/search_icon.png">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
             </li>
-            <li><a href="#"><img src="./img/calender.png"> 상영시간표</a></li>
-            <li><a href="#"><img src="./img/movie.png"> 박스오피스</a></li>
-            <li><a href="#"><img src="./img/booking.png"> 빠른예매</a></li>
+            <li><a href="#"><i class="fa-solid fa-calendar-days"></i> 상영시간표</a></li>
+            <li><a href="#"><i class="fa-solid fa-film"></i> 박스오피스</a></li>
+            <li><a href="#"><i class="fa-solid fa-ticket-simple"></i> 빠른예매</a></li>
         </ol>
     </div>
     <div class="point">
-        <img src="./img/mouse.png">
+        <a href="#"><i class="fa-solid fa-computer-mouse-scrollwheel"></i></a>
     </div>
 </body>
 </html>
