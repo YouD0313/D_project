@@ -50,6 +50,10 @@ div.mainmenu ul li:hover {
 #top {
     margin-top: -26px;
 }
+#top a img {    
+    width: 140px;
+    height: 47px;
+}
 .main ul li {
     display: inline-block;
     font-size: 20px;
@@ -123,4 +127,4 @@ input {
 }
 .logo {
     position: relative;
-}
+}\
