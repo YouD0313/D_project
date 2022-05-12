@@ -53,6 +53,7 @@ div.mainmenu ul li:hover {
 #top a img {    
     width: 140px;
     height: 47px;
+    object-fit: cover;
 }
 .main ul li {
     display: inline-block;
