@@ -11,8 +11,9 @@
 }
 .header-menu {
     display: grid;
-    grid-template-columns: 48% 52%;
-    margin: 0px 360px;
+    grid-template-columns: 23% 55% 23%;
+    margin: 0px auto;
+    width: 1200px;
 }
 .header-menu ul {
     margin-top: 4.2px;
@@ -27,16 +28,17 @@
     color: rgb(146, 146, 146);
 }
 .main {
-    padding-left: 26.3%;
+    margin: 0 auto;
+    width: 1200px;
     display: grid;
-    grid-template-columns: 8% 17% 10% 19% 7%;
+    grid-template-columns: 9% 28% 23% 32% 10%;
     margin-top: -15px;    
     font-family: '맑은 고딕';
     letter-spacing: -3px;
     position: relative;
 }
 div.icon ul li{
-    margin: 0px 7px;
+    margin: 0px 6px;
 }
 div.mainmenu ul li {
     margin: 0px 30px 22px;
@@ -58,13 +60,10 @@ div.mainmenu ul li:hover {
 .main ul li {
     display: inline-block;
     font-size: 20px;
-    margin: 0px ;
+    margin: 0px auto;
 }
 .main ul li a {
     display: block;
-}
-#person {
-    margin-top: -20px;
 }
 .smallmenu ol {
     padding-top: 60px;
@@ -72,7 +71,7 @@ div.mainmenu ul li:hover {
 .smallmenu ol li {
     display: inline-block;
     padding-left: 50px;
-    margin: 0% 6.5%;
+    margin: 1% 11%;
 }
 .smallmenu ol li a {
     letter-spacing: -2px;
@@ -82,8 +81,9 @@ div.mainmenu ul li:hover {
     padding-bottom: 8px;
 }
 .poster ol li{
-    display:inline-block;
+    display:inline;
     margin: 0px 20px;
+    width: 1200px;
 }
 .poster ol li a img {
     width: 245px;
@@ -92,6 +92,7 @@ div.mainmenu ul li:hover {
     display: inline-block;
     padding-top: 20px;    
     margin: 10px 50px 80px 60px;
+    
 }
 .heart {
     display: inline-block;
@@ -114,8 +115,9 @@ div.mainmenu ul li:hover {
 
 }
 .booking {
-    display: inline-block;
-    margin: 0px 30px;
+    display: inline;
+    margin: 0px auto;
+    width: 1200px;
 }
 .reser a {
     background-color: rgb(59, 137, 143);
@@ -128,4 +130,4 @@ input {
 }
 .logo {
     position: relative;
-}\
+}
